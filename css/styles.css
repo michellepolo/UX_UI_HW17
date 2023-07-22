@@ -1,3 +1,103 @@
-body{
-    background-color: blue;
+.logo{
+    width: 30%;
+    height: auto;
+}
+nav{
+    display:flex
+}
+#skillsNav{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/Ellipse\ 10skillscircle.png");
+    background-size: 100px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#storyNav{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/Ellipse\ 10browncircle.png");
+    background-size: 100px;
+    color: #707070;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#contactNav{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/Ellipse\ 10orangecircle.png");
+    background-size: 100px;
+    color: #707070;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#workNav{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/Ellipse\ 10pinkcircle.png");
+    background-size: 100px;
+    color: #707070;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-image: url("../images/Vector\ 1navbackground.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    display: flex;
+    width: 100%;
+}
+
+.about{
+    background-image: url("../images/mp-logo-pattern\ 2backgroundpattern.png");
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: 50%;
+}
+.story{
+    color: black;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Playfair Display', serif;
+}
+.photo{
+    border: #F5E1E3 10px solid;
+}
+.who{
+    font-size: 36px;
+    font-family: 'Playfair Display', serif;
+}
+.information{
+    text-align: center;
+}
+.skill{
+    text-align: center;
+}
+.icons{
+    width: 50px;
+    display: inline-block;
+    margin: 0 20px;
+}
+.icons img{
+    width: 100%;
+}
+.tools{
+    color: black;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Playfair Display', serif;
 }
