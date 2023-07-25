@@ -67,6 +67,8 @@ header{
     background-position: center;
     background-repeat: repeat-x;
     background-size: 50%;
+    display: flex;
+    justify-content: center;
 }
 .story{
     color: black;
@@ -89,15 +91,85 @@ header{
 }
 .icons{
     width: 50px;
-    display: inline-block;
     margin: 0 20px;
 }
 .icons img{
     width: 100%;
 }
-.tools{
+h1{
     color: black;
     text-align: center;
     font-size: 36px;
     font-family: 'Playfair Display', serif;
+}
+.information{
+    font-size: 24px;
+    font: bold;
+}
+footer ul{
+    width: 100%;
+    background-color:#F5F5F1;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+footer li{
+    list-style: none;
+    padding: 40px;
+}
+.flexcontainer{
+    display: flex;
+    justify-content: center;
+}
+.me{
+    display: flex;
+    justify-content: center;
+}
+.projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.projectsimage{
+    width: 60%;
+}
+.projectsimage img{
+    width: 100%;
+    height: auto;
+}
+.projectstext{
+    width: 40%;
+    padding: 20px;
+}
+#mywork{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    color: black;
+    font-size: 28px;
+    font-family: 'Playfair Display', serif;
+}
+button{
+    background-color:#F4C8B7;
+    border-radius:20px;
+    border: none;
+    padding: 16px 32px;
+}
+p, .me li{
+    color: black;
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+}
+.connect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: inline-block;
+}
+.memoji{
+    width: 10px;
+    margin: 0 20px;
 }
